@@ -1,0 +1,1014 @@
+Last login: Mon Sep 19 14:45:35 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.0
+Homebrew 0.9.9 (git revision 3ffb; last commit 2016-09-19) Homebrew/homebrew-core (git revision 128e; last commit 2016-09-19)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
+node v6.6.0
+psql (PostgreSQL) 9.5.4
+------------------------------------------
+type unwelcome to remove this message
+clintgrounds ~ on master[!?]
+$ cd Desktop/
+clintgrounds ~/Desktop on master[!?]
+$ mkdir thelionking
+gmkdir: created directory 'thelionking'
+clintgrounds ~/Desktop on master[!?]
+$ mkdir thelionking/pridelands
+gmkdir: created directory 'thelionking/pridelands'
+clintgrounds ~/Desktop on master[!?]
+$ ls
+'Clint Website'/
+GA/
+'Screen Shot 2016-09-15 at 7.18.29 PM.png'
+'Screen Shot 2016-09-15 at 7.18.47 PM.png'
+'Screen Shot 2016-09-15 at 7.18.54 PM.png'
+'Screen Shot 2016-09-15 at 7.19.04 PM.png'
+'Signature JPEG.jpg'
+TomorrowNight.terminal
+index.html
+thelionking/
+clintgrounds ~/Desktop on master[!?]
+$ cd thelionking/
+clintgrounds ~/Desktop/thelionking on master[!]
+$ ls
+pridelands/
+clintgrounds ~/Desktop/thelionking on master[!]
+$ touch pridelands/mufassa.txt scar.txt simba.txt rafiki.txt
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ ls
+pridelands/  rafiki.txt  scar.txt  simba.txt
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mkdir elephantgraveyard
+gmkdir: created directory 'elephantgraveyard'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ touch elephantgraveyard/hyenas.txt
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ ls
+elephantgraveyard/  pridelands/  rafiki.txt  scar.txt  simba.txt
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+│   └── hyenas.txt
+├── pridelands
+│   └── mufassa.txt
+├── rafiki.txt
+├── scar.txt
+└── simba.txt
+
+2 directories, 5 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mv rafiki.txt pridelands/
+'rafiki.txt' -> 'pridelands/rafiki.txt'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+│   └── hyenas.txt
+├── pridelands
+│   ├── mufassa.txt
+│   └── rafiki.txt
+├── scar.txt
+└── simba.txt
+
+2 directories, 5 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mv scar.txt pridelands/
+'scar.txt' -> 'pridelands/scar.txt'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mv simba.txt pridelands/
+'simba.txt' -> 'pridelands/simba.txt'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd pridelands/
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ mv simba.txt ../elephantgraveyard/
+'simba.txt' -> '../elephantgraveyard/simba.txt'
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ mv mufassa.txt ../elephantgraveyard/
+'mufassa.txt' -> '../elephantgraveyard/mufassa.txt'
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ pwd
+/Users/clintgrounds/Desktop/thelionking/pridelands
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mkdir thegorge
+gmkdir: created directory 'thegorge'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+│   ├── hyenas.txt
+│   ├── mufassa.txt
+│   └── simba.txt
+├── pridelands
+│   ├── rafiki.txt
+│   └── scar.txt
+└── thegorge
+
+3 directories, 5 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd elephantgraveyard/
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!?]
+$ mv simba.txt ../thegorge/
+'simba.txt' -> '../thegorge/simba.txt'
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!?]
+$ mv hyenas.txt ../thegorge/
+'hyenas.txt' -> '../thegorge/hyenas.txt'
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!?]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd pridelands/
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ mv scar.txt ../thegorge/
+'scar.txt' -> '../thegorge/scar.txt'
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ pwd
+/Users/clintgrounds/Desktop/thelionking/pridelands
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ touch timon.txt
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ rm -r timon.txt 
+removed 'timon.txt'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+│   └── mufassa.txt
+├── pridelands
+│   └── rafiki.txt
+└── thegorge
+    ├── hyenas.txt
+    ├── scar.txt
+    └── simba.txt
+
+3 directories, 5 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ touch stampede.md
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd elephantgraveyard/
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!?]
+$ mv mufassa.txt ../thegorge/
+'mufassa.txt' -> '../thegorge/mufassa.txt'
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!]
+$ tree .
+.
+
+0 directories, 0 files
+clintgrounds ~/Desktop/thelionking/elephantgraveyard on master[!]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+├── pridelands
+│   └── rafiki.txt
+├── stampede.md
+└── thegorge
+    ├── hyenas.txt
+    ├── mufassa.txt
+    ├── scar.txt
+    └── simba.txt
+
+3 directories, 6 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ rm -r stampede.md 
+removed 'stampede.md'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd thegorge/
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ rm -r mufassa.txt 
+removed 'mufassa.txt'
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ mv scar.txt ../pridelands/
+'scar.txt' -> '../pridelands/scar.txt'
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ mv hyenas.txt ../pridelands/
+'hyenas.txt' -> '../pridelands/hyenas.txt'
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ cd ../
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ mkdir thejungle
+gmkdir: created directory 'thejungle'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+├── pridelands
+│   ├── hyenas.txt
+│   ├── rafiki.txt
+│   └── scar.txt
+├── thegorge
+│   └── simba.txt
+└── thejungle
+
+4 directories, 4 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd thegorge/
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ cp simba.txt ../thejungle/
+'simba.txt' -> '../thejungle/simba.txt'
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ cd ../thejungle/
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ touch timon.txt && touch pumba.txt
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ tree .
+.
+├── pumba.txt
+├── simba.txt
+└── timon.txt
+
+0 directories, 3 files
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ mv simba.txt matthewbrodericksimba.txt
+'simba.txt' -> 'matthewbrodericksimba.txt'
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ tree .
+.
+├── matthewbrodericksimba.txt
+├── pumba.txt
+└── timon.txt
+
+0 directories, 3 files
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+├── pridelands
+│   ├── hyenas.txt
+│   ├── rafiki.txt
+│   └── scar.txt
+├── thegorge
+│   └── simba.txt
+└── thejungle
+    ├── matthewbrodericksimba.txt
+    ├── pumba.txt
+    └── timon.txt
+
+4 directories, 7 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd thegorge/
+clintgrounds ~/Desktop/thelionking/thegorge on master[!?]
+$ rm -r simba.txt 
+removed 'simba.txt'
+clintgrounds ~/Desktop/thelionking/thegorge on master[!]
+$ cd ..
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ rm -r thegorge/
+removed directory 'thegorge/'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd pridelands/
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ mv rafiki.txt ../thejungle/
+'rafiki.txt' -> '../thejungle/rafiki.txt'
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ cd ../thejungle/
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ mv matthewbrodericksimba.txt pumba.txt rafiki.txt ../pridelands/
+'matthewbrodericksimba.txt' -> '../pridelands/matthewbrodericksimba.txt'
+'pumba.txt' -> '../pridelands/pumba.txt'
+'rafiki.txt' -> '../pridelands/rafiki.txt'
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ tree .
+.
+└── timon.txt
+
+0 directories, 1 file
+clintgrounds ~/Desktop/thelionking/thejungle on master[!?]
+$ cd ../
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+├── pridelands
+│   ├── hyenas.txt
+│   ├── matthewbrodericksimba.txt
+│   ├── pumba.txt
+│   ├── rafiki.txt
+│   └── scar.txt
+└── thejungle
+    └── timon.txt
+
+3 directories, 6 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ rm -r thejungle/
+removed 'thejungle/timon.txt'
+removed directory 'thejungle/'
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd pridelands/
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ rm scar.txt 
+removed 'scar.txt'
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ touch circleoflife.txt
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ tree .
+.
+├── circleoflife.txt
+├── hyenas.txt
+├── matthewbrodericksimba.txt
+├── pumba.txt
+└── rafiki.txt
+
+0 directories, 5 files
+clintgrounds ~/Desktop/thelionking/pridelands on master[!?]
+$ cd ../
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ tree .
+.
+├── elephantgraveyard
+└── pridelands
+    ├── circleoflife.txt
+    ├── hyenas.txt
+    ├── matthewbrodericksimba.txt
+    ├── pumba.txt
+    └── rafiki.txt
+
+2 directories, 5 files
+clintgrounds ~/Desktop/thelionking on master[!?]
+$ cd ~
+clintgrounds ~ on master[!?]
+$ ls
+2	       Documents/    Library/  Pictures/  World/
+Applications/  Downloads/    Movies/   Projects/  code/
+Desktop/       Fundamentals  Music/    Public/	  funny_things/
+clintgrounds ~ on master[!?]
+$ cd Projects/
+clintgrounds ~/Projects on master[!?]
+$ ls
+WDI/
+clintgrounds ~/Projects on master[!?]
+$ cd WDI/
+clintgrounds ~/Projects/WDI on master[!?]
+$ mkdir homework
+gmkdir: created directory 'homework'
+clintgrounds ~/Projects/WDI on master[!?]
+$ cd /..
+clintgrounds /
+$ cd..
+-bash: cd..: command not found
+clintgrounds /
+$ cd ..
+clintgrounds /
+$ ls
+Applications/  Users/	 dev/			    net/      tmp@
+Library/       Volumes/  etc@			    opt/      usr/
+Network/       bin/	 home/			    private/  var@
+System/        cores/	 installer.failurerequests  sbin/
+clintgrounds /
+$ cd
+clintgrounds ~ on master[!?]
+$ ls
+2	       Documents/    Library/  Pictures/  World/
+Applications/  Downloads/    Movies/   Projects/  code/
+Desktop/       Fundamentals  Music/    Public/	  funny_things/
+clintgrounds ~ on master[!?]
+$ cd P
+-bash: cd: P: No such file or directory
+clintgrounds ~ on master[!?]
+$ cd Pictures/
+clintgrounds ~/Pictures on master[!?]
+$ cd 
+clintgrounds ~ on master[!?]
+$ cd Projects/
+clintgrounds ~/Projects on master[!?]
+$ tree .
+.
+└── WDI
+    ├── cli-practice
+    │   └── test-project
+    │       ├── css
+    │       │   └── style.css
+    │       ├── index.html
+    │       └── js
+    │           └── script.js
+    ├── homework
+    └── test.html
+
+6 directories, 4 files
+clintgrounds ~/Projects on master[!?]
+$ cd WDI/homework/
+clintgrounds ~/Projects/WDI/homework on master[!]
+$ git clone https://github.com/generalassembly-atx/cli_golf.git
+Cloning into 'cli_golf'...
+remote: Counting objects: 12, done.
+remote: Total 12 (delta 0), reused 0 (delta 0), pack-reused 12
+Unpacking objects: 100% (12/12), done.
+clintgrounds ~/Projects/WDI/homework on master[!?]
+$ ls
+cli_golf/
+clintgrounds ~/Projects/WDI/homework on master[!?]
+$ cd cli_golf/
+clintgrounds ~/Projects/WDI/homework/cli_golf on master
+$ ls
+LICENSE.txt  README.md	kitchen.zip
+clintgrounds ~/Projects/WDI/homework/cli_golf on master
+$ cd kitchen.zip 
+-bash: cd: kitchen.zip: Not a directory
+clintgrounds ~/Projects/WDI/homework/cli_golf on master
+$ open .
+clintgrounds ~/Projects/WDI/homework/cli_golf on master
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── cans.txt
+│   ├── fridge
+│   │   ├── diapers.txt
+│   │   ├── freezer
+│   │   │   ├── couch.txt
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   ├── milk.txt
+│   │   └── trashcan
+│   │       ├── banana-peels.txt
+│   │       ├── chicken-bones.txt
+│   │       ├── egg-shells.txt
+│   │       └── sink
+│   │           ├── clean-dishes.txt
+│   │           ├── delete-me.txt
+│   │           └── dirty-dishes.txt
+│   └── pantry
+│       ├── cans.txt
+│       ├── cereal.txt
+│       └── crisper-drawer
+│           └── lettuce.txt
+└── kitchen.zip
+
+7 directories, 18 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ rm cans.txt 
+removed 'cans.txt'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── diapers.txt
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   ├── milk.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       ├── egg-shells.txt
+│       └── sink
+│           ├── clean-dishes.txt
+│           ├── delete-me.txt
+│           └── dirty-dishes.txt
+└── pantry
+    ├── cans.txt
+    ├── cereal.txt
+    └── crisper-drawer
+        └── lettuce.txt
+
+6 directories, 14 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ rm -r diapers.txt 
+removed 'diapers.txt'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ tree .
+.
+├── freezer
+│   ├── couch.txt
+│   ├── frozenpeas.txt
+│   └── icecream.txt
+├── milk.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    ├── egg-shells.txt
+    └── sink
+        ├── clean-dishes.txt
+        ├── delete-me.txt
+        └── dirty-dishes.txt
+
+3 directories, 10 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── freezer
+│   │   ├── couch.txt
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   ├── milk.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       ├── egg-shells.txt
+│       └── sink
+│           ├── clean-dishes.txt
+│           ├── delete-me.txt
+│           └── dirty-dishes.txt
+└── pantry
+    ├── cans.txt
+    ├── cereal.txt
+    └── crisper-drawer
+        └── lettuce.txt
+
+6 directories, 13 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ../pantry/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/pantry on master[?]
+$ mv crisper-drawer/ ../fridge/
+'crisper-drawer/' -> '../fridge/crisper-drawer'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/pantry on master[?]
+$ tree .
+.
+├── cans.txt
+└── cereal.txt
+
+0 directories, 2 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/pantry on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── couch.txt
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   ├── milk.txt
+│   │   └── trashcan
+│   │       ├── banana-peels.txt
+│   │       ├── chicken-bones.txt
+│   │       ├── egg-shells.txt
+│   │       └── sink
+│   │           ├── clean-dishes.txt
+│   │           ├── delete-me.txt
+│   │           └── dirty-dishes.txt
+│   └── pantry
+│       ├── cans.txt
+│       └── cereal.txt
+└── kitchen.zip
+
+7 directories, 16 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/crisp-drawer
+-bash: cd: kitchen/crisp-drawer: No such file or directory
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/crisper-drawer/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/crisper-drawer on master[?]
+$ touch apples.txt
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/crisper-drawer on master[?]
+$ tree .
+.
+├── apples.txt
+└── lettuce.txt
+
+0 directories, 2 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/crisper-drawer on master[?]
+$ cd ../freezer/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ rm -r couch.txt 
+removed 'couch.txt'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ tree .
+.
+├── frozenpeas.txt
+└── icecream.txt
+
+0 directories, 2 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   ├── milk.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       ├── egg-shells.txt
+│       └── sink
+│           ├── clean-dishes.txt
+│           ├── delete-me.txt
+│           └── dirty-dishes.txt
+└── pantry
+    ├── cans.txt
+    └── cereal.txt
+
+6 directories, 13 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ rm -r milk.txt 
+removed 'milk.txt'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       ├── egg-shells.txt
+│       └── sink
+│           ├── clean-dishes.txt
+│           ├── delete-me.txt
+│           └── dirty-dishes.txt
+└── pantry
+    ├── cans.txt
+    └── cereal.txt
+
+6 directories, 12 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ mv trashcan/ ../
+'trashcan/' -> '../trashcan'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ tree .
+.
+├── crisper-drawer
+│   ├── apples.txt
+│   └── lettuce.txt
+└── freezer
+    ├── frozenpeas.txt
+    └── icecream.txt
+
+2 directories, 4 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   └── freezer
+│       ├── frozenpeas.txt
+│       └── icecream.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    ├── egg-shells.txt
+    └── sink
+        ├── clean-dishes.txt
+        ├── delete-me.txt
+        └── dirty-dishes.txt
+
+6 directories, 12 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd trashcan/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/trashcan on master[?]
+$ mv sink/ ../../
+'sink/' -> '../../sink'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/trashcan on master[?]
+$ tree .
+.
+├── banana-peels.txt
+├── chicken-bones.txt
+└── egg-shells.txt
+
+0 directories, 3 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/trashcan on master[?]
+$ tree .
+.
+├── banana-peels.txt
+├── chicken-bones.txt
+└── egg-shells.txt
+
+0 directories, 3 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/trashcan on master[?]
+$ cd ../
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   └── freezer
+│       ├── frozenpeas.txt
+│       └── icecream.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+5 directories, 9 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   └── freezer
+│   │       ├── frozenpeas.txt
+│   │       └── icecream.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+├── kitchen.zip
+└── sink
+    ├── clean-dishes.txt
+    ├── delete-me.txt
+    └── dirty-dishes.txt
+
+7 directories, 15 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ mv sink/ kitchen/
+'sink/' -> 'kitchen/sink'
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   └── freezer
+│   │       ├── frozenpeas.txt
+│   │       └── icecream.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── clean-dishes.txt
+│   │   ├── delete-me.txt
+│   │   └── dirty-dishes.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+7 directories, 15 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/sink/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ mv delete-me.txt drying-rack
+'delete-me.txt' -> 'drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ mv dirty-dishes.txt drying-rack 
+'dirty-dishes.txt' -> 'drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ tree .
+.
+├── clean-dishes.txt
+└── drying-rack
+
+0 directories, 2 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   └── freezer
+│       ├── frozenpeas.txt
+│       └── icecream.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── clean-dishes.txt
+│   └── drying-rack
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+6 directories, 11 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd sink/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ mv clean-dishes.txt drying-rack 
+'clean-dishes.txt' -> 'drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ mkdir dirty-dishes.txt
+gmkdir: created directory 'dirty-dishes.txt'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ cd ..
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ tree .
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   └── freezer
+│       ├── frozenpeas.txt
+│       └── icecream.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 10 files
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ touch milk.txt
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ../../
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+8 directories, 14 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/sink/drying-rack 
+-bash: cd: kitchen/sink/drying-rack: Not a directory
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ touch clean-dishes.txt
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	clean-dishes.txt  kitchen/  kitchen.zip
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── clean-dishes.txt
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+8 directories, 15 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ mv clean-dishes.txt kitchen/sink/drying-rack 
+'clean-dishes.txt' -> 'kitchen/sink/drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+8 directories, 14 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ cd kitchen/sink/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ open .
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master[?]
+$ rm drying-rack 
+removed 'drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink on master
+$ cd drying-rack/
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink/drying-rack on master
+$ touch clean-dishes.txt
+clintgrounds ~/Projects/WDI/homework/cli_golf/kitchen/sink/drying-rack on master[?]
+$ cd ../../..
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ tree .
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   │       └── clean-dishes.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+9 directories, 14 files
+clintgrounds ~/Projects/WDI/homework/cli_golf on master[?]
+$ 
